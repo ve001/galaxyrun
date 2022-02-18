@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1700px) {
+    body {
+        margin-top: -70px;
+    }
+    .first_p {
+        font-size: 30px;
+        -webkit-text-stroke-width: 2px;
+    }
+    .minimum-req {
+        padding: 50px;
+        margin-left: -50px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .recommended-req {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+}

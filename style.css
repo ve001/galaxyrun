@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@498&display=swap');
+
+body {
+    overflow-x: hidden;
+    text-align: center;
+    background-color: #1A2238;
+}
+
+.main-h1 {
+    position: relative;
+    margin-top: 200px;
+    margin-left: -60px;
+    font-size: 60px;
+    height: 80px;
+    background: linear-gradient(to right, #ffff00 0%, #ff0000 70%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.main-img {
+    width: 250px;
+    margin-top: -200px;
+    margin-left: 600px;
+    margin-bottom: -200px;
+    position: relative;
+    z-index: -1;
+}
+
+.first_p {
+    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+    width: 100%;
+    background: linear-gradient(to right, rgb(0, 0, 0) 0%, purple 100%, pink , red);
+    color: rgb(0, 217, 255);
+    display: inline-block;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 3px;
+}
+
+.trailer {
+    width: 95%;
+    max-width: 800px;
+    margin-top: 100px;
+}
+
+.screenshots {
+    width: 95%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.system-req {
+    margin-top: 100px;
+    color: white;
+    margin-bottom: 100px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(0, 0, 0) 0%, purple 100%, pink , red);
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
+
+.minimum-req {
+    display: inline-block;
+    padding: 100px;
+    margin-left: -100px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+.recommended-req {
+    display: inline-block;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+.sys-req-txt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+}
+
+.download-game {
+    margin-top: 100px;
+    width: 300px;
+    height: 80px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    background: green;
+    border: none;
+    color: white;
+    transition: 0.6s;
+}
+
+.download-game:hover {
+    background: black;
+}
+
+.copyright {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 100px;
+    background: black;
+}
+
+.developer-a {
+    margin-top: -20px;
+    color: rgb(184, 184, 184);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+    height: 90vh;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: black;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(88, 88, 88); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #ffff00 0%, #ff0000 70%); 
+  }

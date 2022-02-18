@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1049px) {
+    .first_p {
+        font-size: 25px;
+        -webkit-text-stroke-width: 1.5px;
+    }
+    .minimum-req {
+        display: block;
+        margin-left: 0px;
+    }
+    .recommended-req {
+        display: block;
+        margin-top: 50px;
+    }
+}
